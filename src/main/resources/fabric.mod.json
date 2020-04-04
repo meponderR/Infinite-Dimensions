@@ -1,17 +1,13 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
+  "id": "io.github.meponderr.infdim",
+  "version": "1.0.0",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Infinite Dimensions Mod",
+  "description": "This project is up-porting 20w14∞ to newer versions such as 20w14a.",
   "authors": [
-    "Me!"
+    "meponder"
   ],
-  "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
-  },
 
   "license": "CC0-1.0",
   "icon": "assets/modid/icon.png",
@@ -19,7 +15,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "io.github.meponderr.infdim.main"
     ]
   },
   "mixins": [
@@ -27,9 +23,9 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.7.4",
+    "fabricloader": ">=0.7.9",
     "fabric": "*",
-    "minecraft": "1.15.x"
+    "minecraft": ">=20w14a"
   },
   "suggests": {
     "flamingo": "*"
