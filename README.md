@@ -1,16 +1,16 @@
-# Fabric Example Mod
+#Infinite Dimensions Mod
 
+## How to help with this project
+I reccomend to compare decompiled versions of 20w13b and 20w14inf. You can download a tool to decompile 20w14inf [here](https://github.com/meponderR/Minecraft-Decompiler/tree/20w14inf) and 20w13b [here](https://github.com/meponderR/Minecraft-Decompiler/tree/20w13b). You can compare the two versions with [WinMerge](https://winmerge.org/?lang=en).
 ## Setup
 
-1. Edit build.gradle and mod.json to suit your needs.
-    * The "mixins" object can be removed from mod.json if you do not need to use mixins.
-    * Please replace all occurences of "modid" with your own mod ID - sometimes, a different string may also suffice.
-2. Run the following command:
-
+Run the following command:
 ```
-./gradlew idea
+gradlew idea
 ```
+## Build
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Run the following command:
+```
+gradlew Build
+```
