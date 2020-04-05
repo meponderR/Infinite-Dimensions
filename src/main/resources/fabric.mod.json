@@ -1,31 +1,31 @@
 {
   "schemaVersion": 1,
-  "id": "io.github.meponderr.infdim",
+  "id": "infdim",
   "version": "1.0.0",
 
   "name": "Infinite Dimensions Mod",
-  "description": "This project is up-porting 20w14∞ to newer versions such as 20w14a.",
+  "description": "This mod up-ports 20w14∞ to newer versions such as 20w14a.",
   "authors": [
     "meponder"
   ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/meponderR/Infinite-Dimensions"
+  },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/infdim/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.github.meponderr.infdim.main"
+      "me.meponder.infdim.main"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
-
   "depends": {
     "fabricloader": ">=0.7.9",
     "fabric": "*",
-    "minecraft": ">=20w14a"
+    "minecraft": ">=1.16-alpha.20.14.a"
   },
   "suggests": {
     "flamingo": "*"
